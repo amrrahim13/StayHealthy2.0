@@ -1,0 +1,324 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.logo {
+  size: 50%;
+}
+
+.top-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3rem;
+  line-height: 1.5;
+  color: yellow;
+}
+
+.half1 {
+  color: orange;
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.half2 {
+  color: yellow;
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.container2 {
+  padding: 2% 15%;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #37AAC6;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+.black-section {
+  background-color: black;
+  color: #fff;
+}
+
+.peach.section {
+  background: #FFDAB9;
+}
+
+/*Text*/
+.paragraph {
+  font-size: 2em;
+  color: white;
+}
+
+.sub-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3rem;
+  line-height: 1.5;
+  color: orange;
+}
+
+.options {
+  font-size: 2em;
+  color: black;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/* Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+#title {
+  background-color: #347E3E;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+.title-image {
+  width: 60%;
+  transform: rotate(0deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features Section */
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+#testimonials {
+  background-color: #00a79d;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #08ffc8;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* CTA Section */
+/* Footer Section */
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+body {
+  font-family: verdana, sans-serif;
+  /*background: #cbd5d8;*/
+  color: #2a323a;
+}
+
+#wrapper {
+  width: 37.5em;
+  margin: 0 auto;
+}
+
+ul li {
+  list-style-type: none;
+  clear: both;
+}
+
+form {
+  width: 35em;
+  /*border: 1px solid #666;*/
+  -moz-border-radius: 10px;
+  /*-webkit-border-radius: 10px;*/
+  border-radius: 10px;
+  /*box-shadow: .2em .2em .5em #999;*/
+  /*background-color: #ffc;*/
+  padding: 1em;
+  overflow: auto;
+}
+
+fieldset {
+  background-color: #FDFD96;
+  border: 1px solid #666;
+  margin: 1.5em 0;
+  border-radius: 5px;
+}
+
+legend {
+  background-color: #FEBA4F;
+  border: 2px solid #cbd5d8;
+  padding: .2em;
+  border-radius: 5px 5px 0 0;
+  color: black;
+}
+
+label {
+  display: block;
+  float: left;
+  width: 8em;
+  text-align: right;
+  margin-right: .5em;
+  color: black;
+}
+
+#customer_info li {
+  margin: .5em 0;
+  color: black;
+}
+
+input.testinput {
+  width: 20em;
+  height: 1.6em;
+  border: 1px solid #666;
+  border-radius: 5px;
+}
+
+#order li {
+  margin: .3em 0;
+}
+
+#order label {
+  float: none;
+  text-align: inherit;
+  width: auto;
+  margin-left: 1em;
+}
+
+textarea {
+  display: block;
+  width: 30em;
+  height: 5em;
+  border: 1px solid #666;
+  line-height: 1.25em;
+  overflow: auto;
+  font-size: .875em;
+}
+
+input.textinput:focus,
+textarea:focus {
+  background-color: #bbe4f5;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+}
+
+input[type="submit"],
+input[type="reset"] {
+  width: 7em;
+  height: 2em;
+  background-color: #fff;
+  font-size: inherit;
+  border: 1px solid #04699d;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+input[type="submit"] {
+  margin-right: 1em;
+}
